@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{lang}}">
+<html lang="{{ lang }}">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="{{ eleventy.generator }}"/>
-        <title>{{page.title}}</title>
-        <meta name="description" content="{{page.description}}"/>
-        <meta name="og:title" content="{{page.title}}"/>
-    <meta name="og:description" content="{{page.description}}"/>
+        <title>{{ page.title }}</title>
+        <meta name="description" content="{{ page.description }}"/>
+        <meta name="og:title" content="{{ page.title }}"/>
+        <meta name="og:description" content="{{ page.description }}"/>
+    <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url }}">
     {# <link rel="icon" href="{{ '/favicon.png' | url }}"/> #}
         {# <link href="{{ '/css/style.css' | url }}" rel="stylesheet"/> #}
     </head>
     <body>
+        {% include 'layouts/partials/header.njk' %}
         {{ content | safe }}
     </body>
 </html>

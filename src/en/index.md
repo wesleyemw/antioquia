@@ -2,9 +2,8 @@
 title: Home
 layout: layouts/home
 tags: _home
-permalink: /
 page:
-  slug: /
+  slug: /en/
   title: Multilingual base theme
   description: base theme with multilingual support
 ---

@@ -1,0 +1,21 @@
+---
+title: Posts
+layout: layouts/home
+tags: _posts
+page:
+  title: posts
+  description: all the posts here
+---
+
+<h1>posts</h1>
+
+<ul>
+{%- for post in collections.post | reverse -%}
+  {%- if post.data.lang == lang -%}
+  <li>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+    <time datetime="{{ post.date }}">{{ post.date }}</time>
+  </li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>
