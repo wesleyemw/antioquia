@@ -3,7 +3,6 @@ title: Home
 layout: layouts/home
 tags: _home
 page:
-  slug: /en/
   title: Multilingual base theme
   description: base theme with multilingual support
 ---

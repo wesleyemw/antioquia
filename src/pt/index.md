@@ -3,7 +3,6 @@ title: Inicio
 layout: layouts/home
 tags: _home
 page:
-  slug: /pt/
   title: Inicio
   description: Esqueleto de site multilinguas usando 11ty
 ---

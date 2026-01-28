@@ -2,8 +2,18 @@
     <h1>site</h1>
     <nav>
         <ul>
-            <li><a href="{{ '/posts/' | locale_url }}">posts</a></li>
-            <li><a href="{{ '/about/' | locale_url }}">about</a></li>
+            {# <li><a href="{{ '/posts/' | locale_url }}">posts</a></li>
+            <li><a href="{{ '/about/' | locale_url }}">about</a></li> #}
+            {% for item in navigation[page.lang] %}
+                <li>
+                    <a href="{{ item.url | safe }}">{{ item.text }}</a>
+                </li>
+            {% endfor %}
         </ul>
+
+            {% for link in page.url | locale_links %}
+            {%- if not loop.first %}|{% endif %}
+            <a href="{{link.url}}" lang="{{link.lang}}" hreflang="{{link.lang}}">{{locales[link.lang].shorthand}}</a>
+            {% endfor %}
     </nav>
 </header>
