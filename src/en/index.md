@@ -1,13 +1,11 @@
 ---
-title: Home
+title: home
 layout: layouts/home
 tags: _home
 page:
-  title: Multilingual base theme
-  description: base theme with multilingual support
+  title: multilingual base theme
+  description: minimal theme with multilingual support
 ---
 
-A multilingual,
-clean,
-green,
-<a href="https://www.11ty.dev/" target="_blank" rel="noopener" > 11ty starter theme</a > . Elva provides solid foundations for your next web project. Demo available in [English](/) and [Portuguese](/pt/).
+little skeleton base site for
+<a href="https://www.11ty.dev/" target="_blank"> eleventy</a >. demo available in [português](/pt/) and [inglês](/en).

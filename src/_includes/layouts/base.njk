@@ -4,20 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="{{ eleventy.generator }}"/>
-
         <title>{{ page.title }}</title>
-
         <meta name="description" content="{{ page.description }}"/>
         <meta name="og:title" content="{{ page.title }}"/>
         <meta name="og:description" content="{{ page.description }}"/>
         <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}">
-
         {% for link in page.url | locale_links %}
-        <link
-          rel="alternate"
-          hreflang="{{ link.lang }}"
-          href="{{ page.url }}"
-        />
+            <link rel="alternate" hreflang="{{ link.lang }}" href="{{ page.url }}"/>
         {% endfor %}
         {# <link rel="icon" href="{{ '/favicon.png' | url }}"/> #}
         {# <link href="{{ '/css/style.css' | url }}" rel="stylesheet"/> #}
@@ -25,5 +18,6 @@
     <body>
         {% include 'layouts/partials/header.njk' %}
         {{ content | safe }}
+        {% include 'layouts/partials/footer.njk' %}
     </body>
 </html>
