@@ -1,1 +1,57 @@
-@import '_global.css';
+:root {
+    --bg-color: #f2f2f2;
+}
+/*
+* 
+* Global 
+*
+*/
+
+body {
+    background-color: var(--bg-color);
+    font-family: system-ui;
+}
+
+hr {
+    border: none;
+    border-bottom: solid 0.1rem #333;
+}
+
+header, footer, main, article {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 75rem;
+}
+
+a {
+    text-underline-offset: .2em;
+    text-decoration-thickness: .05em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+* 
+* Header 
+*
+*/
+
+header {
+    display: flex;
+}
+
+header nav {
+    margin-inline-start: auto;
+    margin-inline-end: 0;
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        li:not(:last-child) {
+            margin-inline-end: 1em;
+        }
+    }
+}
