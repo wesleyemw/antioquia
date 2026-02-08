@@ -11,8 +11,10 @@
 					"options": {
 						"allow": ["assert", "error", "info", "warn"]
 					}
-				}
+				}, 
+				"noDoubleEquals": "off",
 			}
+
 		}
 	},
 	"javascript": {
