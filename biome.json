@@ -1,0 +1,23 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"includes": ["src/assets/css/**/*", "src/assets/js/**/*"]
+	},
+	"linter": {
+		"rules": {
+			"suspicious": {
+				"noConsole": {
+					"level": "warn",
+					"options": {
+						"allow": ["assert", "error", "info", "warn"]
+					}
+				}
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single"
+		}
+	}
+}
