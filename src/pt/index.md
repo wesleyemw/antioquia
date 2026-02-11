@@ -4,7 +4,6 @@ layout: layouts/home
 tags: _home
 page:
   title: início
-  description: esqueleto de site multilinguas usando 11ty
 ---
 
 pequeno esqueleto de um site multilinguas usando

@@ -3,9 +3,8 @@ title: home
 layout: layouts/home
 tags: _home
 page:
-  title: multilingual base theme
-  description: minimal theme with multilingual support
+  title: home
 ---
 
 little skeleton base site for
-<a href="https://www.11ty.dev/" target="_blank"> eleventy</a >. demo available in [português](/pt/) and [inglês](/en).
+<a href="https://www.11ty.dev/" target="_blank"> eleventy</a >. demo available in [portuguese](/pt/) and [english](/en).
