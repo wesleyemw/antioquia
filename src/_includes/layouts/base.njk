@@ -29,8 +29,12 @@
         <link href="{{ '/assets/css/main.css' | url }}" rel="stylesheet"/>
     </head>
     <body>
+
         {% include 'layouts/partials/header.njk' %}
+        <main id='main'>
         {{ content | safe }}
+        <main>
         {% include 'layouts/partials/footer.njk' %}
+        
     </body>
 </html>

@@ -6,5 +6,5 @@ page:
   title: home
 ---
 
-little skeleton base site for
+little skeleton base theme for
 <a href="https://www.11ty.dev/" target="_blank"> eleventy</a >. demo available in [portuguese](/pt/) and [english](/en).
