@@ -11,6 +11,19 @@ _for fun._
 falando sério, queria começar a entender como os templates no eleventy funcionam, então decidi fazer um mini-template. <br/>
 on a serious note, I wanted to understand how the templates for eleventy works, so I decided to create a mini-template to try on.
 
+## instalação / _installation_
+
+[Crie um _fork_](#) ou use [degit](https://github.com/Rich-Harris/degit) para criar uma cópia limpa do projeto.<br/>
+_[Fork it](#) or use [degit](https://github.com/Rich-Harris/degit) to create a clean copy from it._
+
+### usando degit / _using degit_
+
+Instale<br>
+`npm install -g degit`
+
+Crie uma cópia<br>
+`degit `
+
 ## inspiração / _inspiration_
 
 eleventy-i18n por / _by_ [lene saile](https://github.com/madrilene) - https://github.com/madrilene/eleventy-i18n
