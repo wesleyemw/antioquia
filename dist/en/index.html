@@ -27,9 +27,12 @@
         <link href="/assets/css/main.css" rel="stylesheet">
     </head>
     <body>
-        <header>
+
+        <a href="#main" class="sr-only">Go to main content</a>
+<header>
     <a href="/en/">antioquia</a>
-    <nav>
+
+    <nav aria-label="locales[page.lang].ariaLabel">
         <ul>
             
             
@@ -54,13 +57,14 @@
         </ul>
     </nav>
 </header>
+        <main id="main">
         
-<main>
-  <p>little skeleton base site for
+  <p><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fassets%2Fimages%2Fopengraph-en.jpg&width=1200&format=webp&via=transform 1200w"><img src="/.11ty/image/?src=src%2Fassets%2Fimages%2Fopengraph-en.jpg&width=1200&format=jpeg&via=transform" alt="Antioquia theme image" width="1200" height="630"></picture></p>
+<p>little skeleton base theme for
 <a href="https://www.11ty.dev/" target="_blank"> eleventy</a>. demo available in <a href="/pt/">portuguese</a> and <a href="/en">english</a>.</p>
 
-</main>
 
+        <main>
         <footer>
     <hr>
     
@@ -70,5 +74,6 @@
         </p>
     
 </footer>
-    </body>
+        
+    </main></main></body>
 </html>
