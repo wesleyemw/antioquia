@@ -1,6 +1,6 @@
 # antioquia
 
-![Antioquia theme image](src/assets/images/opengraph-en.jpg)
+![Antioquia theme image](src/assets/images/opengraph-pt.jpg)
 
 esqueleto de um template multi-línguas para [eleventy](https://www.11ty.dev/).<br>
 _multilingual skeleton template for [eleventy](https://www.11ty.dev/)._
