@@ -1,5 +1,7 @@
 # antioquia
 
+![Antioquia theme image](src/assets/images/opengraph-en.jpg)
+
 esqueleto de um template multi-línguas para [eleventy](https://www.11ty.dev/).<br>
 _multilingual skeleton template for [eleventy](https://www.11ty.dev/)._
 
@@ -19,14 +21,16 @@ _[Fork it](#) or use [degit](https://github.com/Rich-Harris/degit) to create a c
 ### usando degit / _using degit_
 
 Instale<br>
+_install_<br>
 `npm install -g degit`
 
 Crie uma cópia<br>
-`degit `
+_create a copy_<br>
+`degit wesleyemw/antioquia`
 
 ## inspiração / _inspiration_
 
-eleventy-i18n por / _by_ [lene saile](https://github.com/madrilene) - https://github.com/madrilene/eleventy-i18n
-elva por / _by_ [scott evans](https://github.com/scottsweb) - https://github.com/scottsweb/elva
-polyglot tech blog por / _by_ [Florent Tassy](https://gitlab.com/florent_tassy) - https://gitlab.com/florent_tassy/polyglot-tech-blog
+eleventy-i18n por / _by_ [lene saile](https://github.com/madrilene) - https://github.com/madrilene/eleventy-i18n<br>
+elva por / _by_ [scott evans](https://github.com/scottsweb) - https://github.com/scottsweb/elva<br>
+polyglot tech blog por / _by_ [Florent Tassy](https://gitlab.com/florent_tassy) - https://gitlab.com/florent_tassy/polyglot-tech-blog<br>
 11ty Netlify Jumpstart por / _by_ [Stephanie Eckles](https://github.com/5t3ph) - https://github.com/5t3ph/11ty-netlify-jumpstart
